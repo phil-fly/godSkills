@@ -1,0 +1,18 @@
+[submodule "akserver"]
+	path = akserver
+	url = https://github.com/phil-fly/akserver
+[submodule "akagent"]
+	path = akagent
+	url = https://github.com/phil-fly/akagent
+[submodule "akfs"]
+	path = akfs
+	url = https://github.com/phil-fly/akfs
+[submodule "akfile"]
+	path = akfile
+	url = https://github.com/phil-fly/akfile
+[submodule "akps"]
+	path = akps
+	url = https://github.com/phil-fly/akps
+[submodule "aknet"]
+	path = aknet
+	url = https://github.com/phil-fly/aknet
