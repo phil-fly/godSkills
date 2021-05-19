@@ -1,6 +1,6 @@
 ###  百晓HIDS👋
 
-<h3 align ="center"><a href="#about"> about </a>|<a href="#code">  code  </a>|<a href="#install"> install </a></h3>
+<h3 align ="center"><a href="#about"> about </a>|<a href="#code">  code  </a>|<a href="#interface"> interface </a>|<a href="#install"> install </a>|<a href="#poc"> 案例 </a></h3>
 
 ---
 <h3 id="about"> about </h3>
@@ -25,7 +25,15 @@
 | ✨ [akps](https://github.com/bx-sec/akps)   ![](https://img.shields.io/github/stars/bx-sec/akps) | 内核模块,抓取进程创建、exec和进程退出的数据 |
 | ✨ [aknet](https://github.com/bx-sec/aknet)   ![](https://img.shields.io/github/stars/bx-sec/aknet) | 内核模块,抓取进程操作进程生命周期内对网络资源的操作行为数据 |
 
-<h3 id="install"> install </h3>
 
-[安装文档](https://www.yuque.com/docs/share/aa53f3e7-8e1d-413c-bb8b-c42859408d67?# 《部署文档》)
+<h3 id="interface"> interface </h3>
+- [进程监控](https://www.yuque.com/zvqzmr/ntx0hm/zvz9s5)
+- [文件监控](https://www.yuque.com/zvqzmr/ntx0hm/gxlb5n)
+- [网络监控](https://www.yuque.com/zvqzmr/ntx0hm/ebxe9x)
+
+<h3 id="install"> install </h3>
+- [安装文档](https://www.yuque.com/zvqzmr/ntx0hm/tu5p9r)
+
+<h3 id="poc"> 案例 </h3>
+- [案例](https://www.yuque.com/zvqzmr/wwfguk)
 
