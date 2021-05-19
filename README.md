@@ -1,6 +1,6 @@
 ###  百晓HIDS👋
 
-<h3 align ="center"><a href="#about"> about </a>|<a href="#code">  code  </a>|<a href="#interface"> interface </a>|<a href="#install"> install </a>|<a href="#poc"> 案例 </a></h3>
+<h3 align ="center"><a href="#about"> about </a>|<a href="#code">  code  </a>|<a href="#interface"> interface </a>|<a href="#install"> install </a>|<a href="#poc"> poc </a></h3>
 
 ---
 <h3 id="about"> about </h3>
