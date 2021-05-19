@@ -7,11 +7,13 @@
 
 ​	**godSkills**是一款由 百晓团队开发维护的主机行为监测系统。基于内核hook行为采集主机侧进程行为、文件变动以及网络事件行为。
 ​	
+<div>
 <p align="center">
   <a  target="_blank">
     <img width="900" src="images/about.png">
   </a>
 </p>
+</div>
 
 ---
 <h3 id="code"> code </h3>
