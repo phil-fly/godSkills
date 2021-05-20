@@ -1,0 +1,21 @@
+#!/bin/bash
+
+Kname=akfs
+Kbuild=`pwd`/Kbuild
+
+echo "#akfs编译的Kbuild文件">$Kbuild
+
+echo "#依赖的文件">> $Kbuild
+echo "obj-m += $Kname.o" >> $Kbuild
+
+for f in `find ./src -name "*.c"`
+do
+    f=${f/.c/.o}
+    echo "$Kname-y += $f" >> $Kbuild
+done
+
+#hook采用ftrace
+echo "EXTRA_CFLAGS += -D__USE_FTRACE__" >> $Kbuild
+
+#解决加载ko的时候提示未签名问题
+echo "CONFIG_MODULE_SIG=n" >> $Kbuild
