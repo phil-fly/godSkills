@@ -1,0 +1,15 @@
+[submodule "akfs"]
+	path = akfs
+	url = https://github.com/bx-sec/akfs.git
+[submodule "aknet"]
+	path = aknet
+	url = https://github.com/bx-sec/aknet.git
+[submodule "akfile"]
+	path = akfile
+	url = https://github.com/bx-sec/akfile.git
+[submodule "akps"]
+	path = akps
+	url = https://github.com/bx-sec/akps.git
+[submodule "akagent"]
+	path = akagent
+	url = https://github.com/bx-sec/akagent.git
