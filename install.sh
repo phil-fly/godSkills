@@ -7,6 +7,7 @@ install_akfs(){
     ./configure
     make
     insmod akfs.ko
+    mkdir /opt/mount
     mount -t akfs none /opt/mount
     cd ../
 }
