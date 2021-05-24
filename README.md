@@ -39,7 +39,7 @@
 ---
 <h3 id="install"> install </h3>
 
-- [安装文档](https://www.yuque.com/zvqzmr/ntx0hm/tu5p9r)
+- [安装文档](https://www.yuque.com/zvqzmr/ntx0hm/qhqa6m)
 
 ---
 <h3 id="poc"> poc </h3>
