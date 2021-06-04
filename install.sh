@@ -4,6 +4,7 @@ install_akfs(){
     echo "编译安装akfs"
 
     cd akfs
+    chmod +x configure
     ./configure
     make
     insmod akfs.ko
@@ -16,6 +17,7 @@ install_akps(){
     echo "编译安装akps"
 
     cd akps
+    chmod +x configure
     ./configure
     make
     insmod process.ko
@@ -26,6 +28,7 @@ install_akfile(){
     echo "编译安装akfile"
 
     cd akfile
+    chmod +x configure
     ./configure
     make
     insmod file.ko
@@ -36,6 +39,7 @@ install_aknet(){
     echo "编译安装aknet"
 
     cd aknet
+    chmod +x configure
     ./configure
     make
     insmod net.ko
