@@ -1,6 +1,6 @@
 ###  百晓HIDS👋
 
-<h3 align ="center"><a href="#about"> about </a>|<a href="#code">  code  </a>|<a href="#interface"> interface </a>|<a href="#install"> install </a>|<a href="#poc"> poc </a></h3>
+<h3 align ="center"><a href="#about"> about </a>|<a href="#code">  code  </a>|<a href="#interface"> interface </a>|<a href="#rule"> rule </a>|<a href="#install"> install </a>|<a href="#poc"> poc </a></h3>
 
 ---
 <h3 id="about"> about </h3>
@@ -35,6 +35,14 @@
 |[进程监控](https://www.yuque.com/zvqzmr/ntx0hm/zvz9s5)|
 |[文件监控](https://www.yuque.com/zvqzmr/ntx0hm/gxlb5n)|
 |[网络监控](https://www.yuque.com/zvqzmr/ntx0hm/ebxe9x)|
+
+
+---
+<h3 id="rule"> rule </h3>
+
+[降噪规则](./rule.md)
+
+
 
 ---
 <h3 id="install"> install </h3>
