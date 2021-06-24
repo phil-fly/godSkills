@@ -1,4 +1,8 @@
 ###  百晓HIDS👋
+<p>
+  <img src="https://img.shields.io/github/stars/bx-sec/godSkills.svg?style=flat-square" />
+  <img src="https://img.shields.io/github/license/bx-sec/godSkills?style=flat-square" />
+</p>
 
 <h3 align ="center"><a href="#about"> about </a>|<a href="#code">  code  </a>|<a href="#interface"> interface </a>|<a href="#rule"> rule </a>|<a href="#install"> install </a>|<a href="#poc"> poc </a></h3>
 
