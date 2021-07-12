@@ -1,56 +1,25 @@
 #!/bin/bash
 
 install_akfs(){
-    echo "编译安装akfs"
-
-    cd akfs
-    chmod +x configure
-    ./configure
-    make
     insmod akfs.ko
-    mkdir /opt/mount
+    test -D /opt/mount||mkdir -p /opt/mount
     mount -t akfs none /opt/mount
-    cd ../
 }
 
 install_akps(){
-    echo "编译安装akps"
-
-    cd akps
-    chmod +x configure
-    ./configure
-    make
     insmod process.ko
-    cd ../
 }
 
 install_akfile(){
-    echo "编译安装akfile"
-
-    cd akfile
-    chmod +x configure
-    ./configure
-    make
     insmod file.ko
-    cd ../
 }
 
 install_aknet(){
-    echo "编译安装aknet"
-
-    cd aknet
-    chmod +x configure
-    ./configure
-    make
     insmod net.ko
-    cd ../
 }
 
 install_akagent(){
-    echo "编译安装akagent"
-
-    cd akagent
-    go build
+    docker build -t bxsec/akagent:v1.0.1 .
 }
 
 install_akfs
