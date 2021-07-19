@@ -27,18 +27,18 @@ build-docker:
 	docker save  -o  $(akagentDockerPkg)   bxsec/akagent:$(version)
 
 akfs:
-	make -C ./akfs/
+	cd akfs/ && ./configure && make
 	echo -e "\033[32m build akfs done \033[0m"
 
 
 akps:
-	make -C ./akps/
+	cd akps/ && ./configure && make
 	echo -e "\033[32m build akps done \033[0m"
 akfile:
-	make -C ./akfile/
+	cd akfile/ && ./configure && make
 	echo -e "\033[32m build akfile done \033[0m"
 aknet:
-	make -C ./aknet/
+	cd aknet/ && ./configure && make
 	echo -e "\033[32m build aknet done \033[0m"
 
 
