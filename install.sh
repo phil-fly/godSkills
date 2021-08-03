@@ -27,34 +27,34 @@ check_module_exist(){
 
 install_akfs(){
 	check_module_exist akfs
-    insmod akfs/akfs.ko
-    # test -D /opt/mount||mkdir -p /opt/mount
+	insmod akfs.ko
+	# test -D /opt/mount||mkdir -p /opt/mount
 	# -d 参数判断 $folder 是否存在
 	folder=/opt/mount
 	if [ ! -d "/opt/mount" ]
-	then
+	then 
 	  mkdir -p "/opt/mount"
 	fi
-    mount -t akfs none /opt/mount
-	echo "install akfs/akfs.ko success"
+	mount -t akfs none /opt/mount
+	echo "install akfs.ko success"
 }
 
 install_akps(){
 	check_module_exist process
-    insmod akps/process.ko
-	echo "install akps/process.ko success"
+	insmod process.ko
+	echo "install process.ko success"
 }
 
 install_akfile(){
 	check_module_exist file
-    insmod akfile/file.ko
+	insmod file.ko
 	echo "install akfile/file.ko success"
 }
 
 install_aknet(){
 	check_module_exist net
-    insmod aknet/net.ko
-	echo "install aknet/net.ko success"
+	insmod net.ko
+	echo "install net.ko success"
 }
 
 install_akagent_docker(){
